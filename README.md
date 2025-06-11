@@ -11,15 +11,7 @@ Oleh karena itu, Kenal Jiwa hadir sebagai solusi dalam bentuk website asesmen di
 ### Permasalahan Bisnis  
 1. Apakah model machine learning ini dapat bekerja dengan baik dalam pengujian ketika menentukan kondisi keadaan kesehatan mental seseorang?
 2. Seberapa tinggi akurasi dari model machine learning (ex: Random Forest, Logistic Regression, XGBoost) dalam mengklasifikan depresi dan anxiety pada populasi Gen Z Indonesia?
-3. Algoritma ML (bandingkan 2 algoritma seperti Random Forest, XGBoost, Logistic Regression, dll) mana yang menghasilkan performa terbaik dalam memprediksi status depresi dan kecemasan pada populasi Gen Z Indonesia?
-   
-
-### Cakupan Proyek  
-- Data preprocessing dan EDA pada dataset “Students’ Performance”  
-- Pengembangan model klasifikasi (Logistic Regression, RandomForest) untuk memprediksi risiko dropout  
-- Pembuatan dashboard analitik di Metabase untuk business monitoring  
-- Pembuatan prototype Streamlit untuk prediksi real‑time 
-- Export data ke Supabase PostgreSQL sebagai data source terpusat  
+3. Algoritma ML (bandingkan 2 algoritma seperti Random Forest, XGBoost, Logistic Regression, dll) mana yang menghasilkan performa terbaik dalam memprediksi status depresi dan kecemasan pada populasi Gen Z Indonesia? 
 
 ## Persiapan  
 
