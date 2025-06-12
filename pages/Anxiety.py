@@ -5,10 +5,10 @@ import pandas as pd
 import joblib
 import os
 from datetime import datetime
-st.set_page_config(page_title="Anxiety Prediction")
+st.set_page_config(page_title="Anxiety Level Prediction")
 
-st.markdown("# Anxiety Prediction")
-st.sidebar.header("Anxiety Prediction")
+st.markdown("# Anxiety Level Prediction")
+st.sidebar.header("Anxiety Level Prediction")
 
 base_path = os.path.dirname(__file__)
 model_path = os.path.abspath(os.path.join(base_path, "..", "Anxiety", "model.joblib"))
@@ -81,4 +81,4 @@ if st.button("Predict"):
     prediction = anxiety_model.predict(input_data)   
     result = round(float(prediction[0])) 
 
-    st.subheader(f"🧾 Prediction: **{result}**")
+    st.subheader(f"🧾 Anxiety Level Prediction: **{result}**")

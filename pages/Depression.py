@@ -90,5 +90,5 @@ if st.button("Predict"):
     confidence = prediction_proba[prediction] 
 
     label = "Yes" if prediction == 1 else "No"
-    st.subheader(f"🧾 Prediction: **{label}**")
+    st.subheader(f"🧾 Depression Prediction: **{label}**")
     st.write(f"🧠 Confidence: **{confidence*100:.2f}%**")
